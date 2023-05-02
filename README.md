@@ -22,11 +22,11 @@ Discuss why you chose image classification over object detection, and describe t
 
 # Deployment and Usage
 
-# Explain how to deploy the model on a phone using Edge Impulse, and provide instructions for using the app for object detection.
+Explain how to deploy the model on a phone using Edge Impulse, and provide instructions for using the app for object detection.
 
 #Experiments and Results
 
-# Summarize the experiments conducted, their results, and any insights gained during the model selection and training process.
+Summarize the experiments conducted, their results, and any insights gained during the model selection and training process.
 
 # Critical Reflection and Learning
 
