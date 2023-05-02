@@ -25,7 +25,7 @@ The image classification model can be accessed by students and guests in the lab
 # Getting Started Image Classification Model Using Transfer Learning
 ## 1. Dataset Collection and Split
 I started by collecting a dataset of 149 images, consisting of two labels representing the unique objects in the lab - the wind spiral and wind barometer. I divided the dataset into training and test sets, following a 77% training and 23% test split, which is close to the commonly recommended 80% training and 20% test split.
-![split of the data](https://github.com/Gil-ADDA/CE-LAB/blob/4bc06f64ee0e758ea9d4a4ba2524ebef6b4640e2/image/split%20of%20the%20data.png)
+![split of the data](https://github.com/Gil-ADDA/CE-LAB/blob/5dd489074ee6368cd160508a72b5791f405d4a10/image/split%20of%20the%20data.png)
 
 ## 2. Image Upload and Preprocessing
 Next, I uploaded the images to the Edge Impulse platform. The images were resized to 96x96 pixels, and preprocessing and normalization were applied to the image data. The color depth was kept as RGB.
