@@ -2,6 +2,10 @@
 
 ## CE-LAB  Image Classification Model Using Edge Impulse
 
+![Transfer learning process](https://github.com/Gil-ADDA/CE-LAB/blob/ee24fbea84f4a73ba45fd41278ce8da3f62ae732/image/Transfer%20learning%20process.png)
+![Wind Barometer](https://github.com/Gil-ADDA/CE-LAB/blob/ee24fbea84f4a73ba45fd41278ce8da3f62ae732/image/Wind%20Barometer.png)
+![Wind spiral](https://github.com/Gil-ADDA/CE-LAB/blob/ee24fbea84f4a73ba45fd41278ce8da3f62ae732/image/Wind%20spiral.png)
+
 # Project Overview
 
 Explain the purpose of your project, which is to detect two unique objects in the CE-LAB using an image classification model deployed on a phone.
