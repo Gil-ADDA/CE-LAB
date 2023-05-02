@@ -23,8 +23,9 @@ Discuss why you chose image classification over object detection, and describe t
 # Deployment and Usage
 
 Explain how to deploy the model on a phone using Edge Impulse, and provide instructions for using the app for object detection.
-# The Model in action 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nQ7Ruwu12t8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+# Video Preview of the Model 
+[![Video Thumbnail](https://img.youtube.com/vi/nQ7Ruwu12t8/0.jpg)](https://www.youtube.com/watch?v=nQ7Ruwu12t8)
+
 
 # Experiments and Results
 
