@@ -13,16 +13,10 @@ The image classification model can be accessed by students and guests in the lab
 
 # Table of Contents
 
-# Workspace
-Edge Impulse 
-<br> <img src="https://www.edge-ai-vision.com/wp-content/uploads/2021/05/logo_edgeimpulse_may_2021.png" width="80" height="60">
-
-Google Sheets <br> <img src="https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_32dp.png" width="60" height="60"> (Used for documenting the results of training and testing)
-
-# Getting Started
 
 
-# Image Classification Model Using Transfer Learning
+
+# Getting Started Image Classification Model Using Transfer Learning
 ## 1. Dataset Collection and Split
 I started by collecting a dataset of 149 images, consisting of two labels representing the unique objects in the lab - the wind spiral and wind barometer. I divided the dataset into training and test sets, following a 77% training and 23% test split, which is close to the commonly recommended 80% training and 20% test split.
 
@@ -69,6 +63,13 @@ Summarize the experiments conducted, their results, and any insights gained duri
 # Critical Reflection and Learning
 
 Reflect on your experiences, any challenges faced, and potential improvements to the project.
+
+
+# Workspace
+Edge Impulse 
+<br> <img src="https://www.edge-ai-vision.com/wp-content/uploads/2021/05/logo_edgeimpulse_may_2021.png" width="80" height="60">
+
+Google Sheets <br> <img src="https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_32dp.png" width="60" height="60"> (Used for documenting the results of training and testing)
 
 ## Contact Details
 
