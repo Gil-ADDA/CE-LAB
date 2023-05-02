@@ -9,10 +9,10 @@ Explain the purpose of your project, which is to detect two unique objects in th
 
 # Table of Contents
 # Workspace
-Edge Impulse <br> <img src="https://www.edge-ai-vision.com/wp-content/uploads/2021/05/logo_edgeimpulse_may_2021.png" width="20" height="20">
+Edge Impulse <br> <img src="https://www.edge-ai-vision.com/wp-content/uploads/2021/05/logo_edgeimpulse_may_2021.png" width="80" height="60">
 
 
-VS Code <br> <img src="https://code.visualstudio.com/favicon.ico" width="20" height="20">
+VS Code <br> <img src="https://code.visualstudio.com/favicon.ico" width="40" height="40">
 VS code for 
 # Getting Started
 
