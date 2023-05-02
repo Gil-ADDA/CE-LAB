@@ -11,7 +11,8 @@ Explain the purpose of your project, which is to detect two unique objects in th
 # Workspace
 Edge Impulse 
 <br> <img src="https://www.edge-ai-vision.com/wp-content/uploads/2021/05/logo_edgeimpulse_may_2021.png" width="80" height="60">
-Google Sheets <br> <img src="https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_32dp.png" width="20" height="20"> (Used for documenting the results of training and testing)
+
+Google Sheets <br> <img src="https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_32dp.png" width="60" height="60"> (Used for documenting the results of training and testing)
 # Getting Started
 
 Explain how to set up Edge Impulse and any prerequisites for running the project on a phone.
