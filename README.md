@@ -9,6 +9,9 @@ Explain the purpose of your project, which is to detect two unique objects in th
 
 # Table of Contents
 # Workspace
+Edge Impulse <br> <img src="https://edgeimpulse.com/favicon-32x32.png" width="20" height="20">
+VS Code <br> <img src="https://code.visualstudio.com/favicon.ico" width="20" height="20">
+VS code for 
 # Getting Started
 
 Explain how to set up Edge Impulse and any prerequisites for running the project on a phone.
