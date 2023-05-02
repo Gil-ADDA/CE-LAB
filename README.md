@@ -18,7 +18,7 @@ Explain how to set up Edge Impulse and any prerequisites for running the project
 Describe the process of collecting images of the two unique objects in the CE-LAB and how you preprocessed the images before training the model.
 # Model Selection and Training
 
-# Discuss why you chose image classification over object detection, and describe the model architecture, training process, and any challenges faced.
+Discuss why you chose image classification over object detection, and describe the model architecture, training process, and any challenges faced.
 
 # Deployment and Usage
 
