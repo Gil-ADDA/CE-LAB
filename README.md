@@ -99,6 +99,9 @@ Google Sheets <br> <img src="https://www.gstatic.com/images/branding/product/1x/
 
 # Future work
 ## Refrences
+Edge Impulse. (n.d.). Object detection. Retrieved March 18, 2023, from https://docs.edgeimpulse.com/docs/tutorials/object-detection
+
+O'Reilly Media, Inc. (2023). AI at the Edge: A Developer's Guide. O'Reilly Media, Inc. Retrieved from https://learning.oreilly.com/library/view/ai-at-the/9781098120191/
 # Contributing, License, and Acknowledgments
 
 # Include any relevant information about contributions,
