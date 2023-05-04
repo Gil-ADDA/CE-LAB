@@ -17,6 +17,10 @@ The project employs a transfer learning approach to train an image classificatio
 The image classification model can be accessed by students and guests in the lab to help them identify the wind spiral and wind barometer objects. This interactive experience aims to foster better engagement and understanding of the devices in the lab, benefiting both students and guests. Possible future work includes improving the model's performance by collecting a more diverse dataset and incorporating an object detection model.
 
 
+# Background 
+
+
+
 # Table of Contents
 
 
