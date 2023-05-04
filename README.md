@@ -19,6 +19,7 @@ The image classification model can be accessed by students and guests in the lab
 
 # Background 
 
+![Object detection bounding box attempts](https://github.com/Gil-ADDA/CE-LAB/blob/d6dc0140d765485b9b29957252cfe8582ada2612/image/Object%20detection%20bounding%20box%20attempts.png)
 
 
 # Table of Contents
