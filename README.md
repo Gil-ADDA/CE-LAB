@@ -87,8 +87,9 @@ Explain how to deploy the model on a phone using Edge Impulse, and provide instr
 
 # Challenges faced during development
 Obtaining accurate results proved difficult during development. Additionally, finding the right dataset size was an issue; only 20 images were initially used and more were added as time went on, including images without the object and changes to the background. To gain a better understanding of machine learning, I employed various techniques and asked the Edge Impulse community for guidance (Attached underneath this paragraph). I studied other projects, articles, and books for additional insights. I also tweaked the model's variables, like architecture and image size, to boost performance.
+![Edge impusle community](https://github.com/Gil-ADDA/CE-LAB/blob/af24f8076a5d3730215290e521f82f2a187943f6/image/Edge%20impulse%20community.png)
 
-IMAGE
+
 # Experiments and Results
 
 Summarize the experiments conducted, their results, and any insights gained during the model selection and training process.
