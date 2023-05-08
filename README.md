@@ -23,10 +23,6 @@ The project was motivated by the need to improve engagement with the devices and
 ![Object detection bounding box attempts](https://github.com/Gil-ADDA/CE-LAB/blob/d6dc0140d765485b9b29957252cfe8582ada2612/image/Object%20detection%20bounding%20box%20attempts.png)
 
 
-# Table of Contents
-
-
-
 
 # Getting Started Image Classification Model Using Transfer Learning
 ## 1. Dataset Collection and Split
@@ -37,8 +33,6 @@ I started by collecting a dataset of 149 images, consisting of two labels repres
 Next, I uploaded the images to the Edge Impulse platform. The images were resized to 96x96 pixels, and preprocessing and normalization were applied to the image data. The color depth was kept as RGB. 
 I set up a processing block for the image data, which preprocesses and normalizes the images.
 I configured a learning block using transfer learning for images. This fine-tunes a pre-trained image classification model on my dataset.
-
-
 
 
 ## 3. Data Exploration and Feature Visualization
