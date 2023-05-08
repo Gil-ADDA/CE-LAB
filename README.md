@@ -67,26 +67,6 @@ After training the image classification model with transfer learning, I tested i
 
 
 
-
-
-
-
-### Data Collection and Preprocessing
-
-The process of collecting images of the two unique objects in the CE-LAB involved taking photographs of the wind spiral and wind barometer using a smartphone camera. The images were then transferred to a computer for preprocessing, 
-
-### Model Selection and Training
-
-Discuss why you chose image classification over object detection, and describe the model architecture, training process, and any challenges faced.
-
-### Deployment and Usage
-
-Explain how to deploy the model on a phone using Edge Impulse, and provide instructions for using the app for object detection.
-
-
-
-
-
 # Video Preview of the Model 
 [![Video Thumbnail](https://img.youtube.com/vi/nQ7Ruwu12t8/0.jpg)](https://www.youtube.com/watch?v=nQ7Ruwu12t8)
 
@@ -97,7 +77,12 @@ Moreover before considering the question of how much data is required for your p
 
 The Link to the forum [https://forum.edgeimpulse.com/t/improve-performance-of-an-object-detection/6922/7](https://forum.edgeimpulse.com/t/improve-performance-of-an-object-detection/6922/7)
 
-# Critical Reflection and Learning
+# For future work, there are several steps that could be taken to improve the project. One possibility is to create a  project in TensorFlow that is better able to detect both the wind spiral and wind barometer objects without relying on previous datasets. In addition, to the existing images, I'm thinking to add another type of image that includes examples of both objects in the same image. This can help to improve the accuracy of the transfer learning model and its ability to recognize and classify both objects together.
+
+To use this new dataset to improve the object detection model, transfer learning can be employed. This involves fine-tuning a pre-trained model on a new dataset. By doing this, the model can learn to recognize the features of both objects together, improving its accuracy on the task of object detection.
+
+It's important to note that collecting a new dataset and retraining the model can be a resource-intensive process that requires careful evaluation of performance on a separate validation dataset. Additionally, investing in additional hardware, such as GPUs, may be necessary to train the model efficiently.
+Critical Reflection and Lessons Learned
 
 Transfer learning can be used for both image classification and object detection, but image classification was more suitable for this project than object detection. Initially, the bounding box feature of object detection was appealing, but I lacked the resources to create a comprehensive dataset and the time to implement it. For those considering object detection, consider the time and resources needed to match the desired outcome with the data. For data requirements, refer to the table and explanation in AI at the Edge (O'Reilly Media, Inc., 2023) (attached below).
 
@@ -117,7 +102,9 @@ Google Sheets <br> <img src="https://www.gstatic.com/images/branding/product/1x/
 
 
 # Future work
+For future work, there are several steps that could be taken to improve the project. One possibility is to create a  project in TensorFlow that is better able to detect both the wind spiral and wind barometer objects without relying on previous datasets. In addition, to the existing images, I'm thinking to add another type of image that includes examples of both objects in the same image. This can help to improve the accuracy of the transfer learning model and its ability to recognize and classify both objects together.
 
+To use this new dataset to improve the object detection model, transfer learning can be employed. This involves fine-tuning a pre-trained model on a new dataset. By doing this, the model can learn to recognize the features of both objects together, improving its accuracy on the task of object detection.
 
 ## Refrences
 Edge Impulse. (n.d.). Object detection. Retrieved March 18, 2023, from https://docs.edgeimpulse.com/docs/tutorials/object-detection
