@@ -115,7 +115,8 @@ Edge Impulse
 <br> <img src="https://www.edge-ai-vision.com/wp-content/uploads/2021/05/logo_edgeimpulse_may_2021.png" width="80" height="60">
 
 Google Sheets <br> <img src="https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_32dp.png" width="60" height="60"> (Used for documenting the results of training and testing)
-The link to the original Sheet (Object detection and transfer learning)  https://docs.google.com/spreadsheets/d/1LEAihPLvVjIKXl6ZXBGP7pdwTo1F_FSEUE8_gQM_ccs/edit?usp=sharing
+
+### The link to the original Sheet (Object detection and transfer learning)  https://docs.google.com/spreadsheets/d/1LEAihPLvVjIKXl6ZXBGP7pdwTo1F_FSEUE8_gQM_ccs/edit?usp=sharing
 ## Contact Details
 [<img src="https://img.icons8.com/color/48/000000/gmail.png"/>](mailto:giloo1047@gmail.com)
 [<img src="https://img.icons8.com/color/48/000000/linkedin.png"/>](https://www.linkedin.com/in/gil-adda-16385510b/)
