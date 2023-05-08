@@ -96,11 +96,9 @@ Moreover before considering the question of how much data is required for your p
 
 The Link to the forum [https://forum.edgeimpulse.com/t/improve-performance-of-an-object-detection/6922/7](https://forum.edgeimpulse.com/t/improve-performance-of-an-object-detection/6922/7)
 
-
-
 # Critical Reflection and Learning
 
-Reflect on your experiences, any challenges faced, and potential improvements to the project.
+Transfer learning can be used for both image classification and object detection, but image classification was more suitable for this project than object detection. Initially, the bounding box feature of object detection was appealing, but I lacked the resources to create a comprehensive dataset and the time to implement it. For those considering object detection, consider the time and resources needed to match the desired outcome with the data. For data requirements, refer to the table and explanation in AI at the Edge (O'Reilly Media, Inc., 2023) (attached below).
 
 ![Data requirmentes Table](https://github.com/Gil-ADDA/CE-LAB/blob/1591c633fefef7717f39c174b17560ccd6428153/image/Data%20requirements%20for%20common%20tasks.png)
 
