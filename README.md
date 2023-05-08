@@ -55,9 +55,10 @@ For the image classification task, I chose to use transfer learning with the Mob
 ## 7. Model Training
 I trained the model using the processed images and learning block configuration with a batch size of 32 and 40 epochs. To address overfitting issues, I modified the Keras expert mode settings, setting the learning rate to 0.0015. I didn't use the auto-balance dataset or data augmentation options in this case, as I was not aware of the need to add them manually in the Keras code at the time. Despite this, the model testing results showed an accuracy of 94.29%, indicating that the model is effective in identifying the wind spiral and wind barometer objects. However, it's important to consider using data augmentation and class balancing techniques in future projects, especially when working with a small dataset like mine. Data augmentation can help prevent overfitting by artificially increasing the size of the training dataset and adding diversity to the data. Class balancing can ensure that the model has equal representation of all classes, even when one class has significantly more samples than another.
 ![Transfer Learning Documentation](https://github.com/Gil-ADDA/CE-LAB/blob/78db88dd2031858951dd2e66a405a8f9987847d3/image/transfer%20learning%20documention%20.png)
-
-
 ![Training Data](https://github.com/Gil-ADDA/CE-LAB/blob/4bc06f64ee0e758ea9d4a4ba2524ebef6b4640e2/image/Training%20Data.png)
+
+
+
 
 ## 8. Model Testing and Result
 After training the image classification model using transfer learning, I tested the model's performance using the 23% of the dataset that was set aside for testing. I classified all the test images using the model and set the threshold at 0.8 (80%). The model testing results showed an accuracy of 94.29%, indicating that the model is effective in identifying the wind spiral and wind barometer objects.
@@ -67,9 +68,17 @@ After training the image classification model using transfer learning, I tested 
 
 ![QR Code](https://github.com/Gil-ADDA/CE-LAB/blob/78db88dd2031858951dd2e66a405a8f9987847d3/image/QR-CODE.png)
 
+
+
+
+
+
+
+
 # Data Collection and Preprocessing
 
 Describe the process of collecting images of the two unique objects in the CE-LAB and how you preprocessed the images before training the model.
+
 # Model Selection and Training
 
 Discuss why you chose image classification over object detection, and describe the model architecture, training process, and any challenges faced.
@@ -108,22 +117,19 @@ Edge Impulse
 Google Sheets <br> <img src="https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_32dp.png" width="60" height="60"> (Used for documenting the results of training and testing)
 
 ## Contact Details
-
 [<img src="https://img.icons8.com/color/48/000000/gmail.png"/>](mailto:giloo1047@gmail.com)
 [<img src="https://img.icons8.com/color/48/000000/linkedin.png"/>](https://www.linkedin.com/in/gil-adda-16385510b/)
 
 
 
 # Future work
+
+
 ## Refrences
 Edge Impulse. (n.d.). Object detection. Retrieved March 18, 2023, from https://docs.edgeimpulse.com/docs/tutorials/object-detection
 
 O'Reilly Media, Inc. (2023). AI at the Edge: A Developer's Guide. O'Reilly Media, Inc. Retrieved from https://learning.oreilly.com/library/view/ai-at-the/9781098120191/
-# Contributing, License, and Acknowledgments
 
-# Include any relevant information about contributions,
-
-# licensing, and acknowledgments.
 
 ## MIT License
 
