@@ -55,7 +55,8 @@ I trained the model using the processed images and learning block configuration 
 
 
 ## 6. Model Testing and Result
-After training the image classification model using transfer learning, I tested the model's performance using the 23% of the dataset that was set aside for testing. I classified all the test images using the model and set the threshold at 0.8 (80%). The model testing results showed an accuracy of 93.5%, indicating that the model is effective in identifying the wind spiral and wind barometer objects.
+
+After training the image classification model with transfer learning, I tested it with 23% of the dataset and achieved an accuracy of 93.5%. To determine the optimal validation set size, I experimented with various parameters and found good performance with a size of 40. I classified all the test images using the model and set the threshold at 0.8 (80%). In March 2022, EON Tuner was only available for enterprise use, which may be useful for identifying appropriate architecture for ML projects.
 
 ![Result of the Model](https://github.com/Gil-ADDA/CE-LAB/blob/fe0ba971f1ac7ddcd916a45734f81571d11a0c33/image/Result%20of%20the%20model1.png)
 
