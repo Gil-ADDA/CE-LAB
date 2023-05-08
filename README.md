@@ -101,7 +101,8 @@ The Link to the forum [https://forum.edgeimpulse.com/t/improve-performance-of-an
 # Critical Reflection and Learning
 
 Reflect on your experiences, any challenges faced, and potential improvements to the project.
-![Data requirmentes Table] https://github.com/Gil-ADDA/CE-LAB/blob/1591c633fefef7717f39c174b17560ccd6428153/image/Data%20requirements%20for%20common%20tasks.png
+
+![Data requirmentes Table] (https://github.com/Gil-ADDA/CE-LAB/blob/1591c633fefef7717f39c174b17560ccd6428153/image/Data%20requirements%20for%20common%20tasks.png)
 
 # Workspace
 Edge Impulse 
