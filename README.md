@@ -55,7 +55,7 @@ I trained the model using the processed images and learning block configuration 
 
 
 ## 6. Model Testing and Result
-After training the image classification model using transfer learning, I tested the model's performance using the 23% of the dataset that was set aside for testing. I classified all the test images using the model and set the threshold at 0.8 (80%). The model testing results showed an accuracy of 94.29%, indicating that the model is effective in identifying the wind spiral and wind barometer objects.
+After training the image classification model using transfer learning, I tested the model's performance using the 23% of the dataset that was set aside for testing. I classified all the test images using the model and set the threshold at 0.8 (80%). The model testing results showed an accuracy of 93.5%, indicating that the model is effective in identifying the wind spiral and wind barometer objects.
 
 ![Result of the Model](https://github.com/Gil-ADDA/CE-LAB/blob/fe0ba971f1ac7ddcd916a45734f81571d11a0c33/image/Result%20of%20the%20model1.png)
 
@@ -96,14 +96,12 @@ Moreover before considering the question of how much data is required for your p
 
 The Link to the forum [https://forum.edgeimpulse.com/t/improve-performance-of-an-object-detection/6922/7](https://forum.edgeimpulse.com/t/improve-performance-of-an-object-detection/6922/7)
 
-# Experiments and Results
 
-Summarize the experiments conducted, their results, and any insights gained during the model selection and training process.
 
 # Critical Reflection and Learning
 
 Reflect on your experiences, any challenges faced, and potential improvements to the project.
-
+![Data requirmentes Table] https://github.com/Gil-ADDA/CE-LAB/blob/1591c633fefef7717f39c174b17560ccd6428153/image/Data%20requirements%20for%20common%20tasks.png
 
 # Workspace
 Edge Impulse 
