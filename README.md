@@ -88,7 +88,7 @@ It's worth noting that Edge Impulse is a user-friendly and convenient tool. Howe
 
 https://colab.research.google.com/drive/1fRwoDW84URBEveKRxg-vPBQK_DPzI-xO#scrollTo=ro4oYaEmxe4r 
 
-
+[Tensorflow screenshot](https://github.com/Gil-ADDA/CE-LAB/blob/a4a19400f73572da09109843080afea15d62e0c2/image/Tensorflow%20project%20screenshot.png)
 
 # Video Preview of the Model 
 [![Video Thumbnail](https://img.youtube.com/vi/nQ7Ruwu12t8/0.jpg)](https://www.youtube.com/watch?v=nQ7Ruwu12t8)
