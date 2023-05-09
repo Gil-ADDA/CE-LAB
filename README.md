@@ -26,7 +26,7 @@ The project was motivated by the need to improve engagement with the devices and
 ## 1. Dataset Collection and Split
 To begin, I collected a dataset of 149 images, including two labels representing the unique objects in the lab - the wind spiral and wind barometer. I then divided the dataset into training and test sets, following a 77% training and 23% test split, which aligns with the commonly recommended 80% training and 20% test split. In the training set, there were 74 images of wind spirals and 40 images of wind barometers, while the test set had 11 images of wind barometers and 24 images of wind spirals.
 
-Based on feedback from teaching staff, it was recommended that an equal number of images be included for each object in both training and test datasets. This would help ensure the model is trained and tested on each object equally and improve overall accuracy.  To provide optimal training and testing of the model, having an equal number of images for each object in the training and test datasets. This advice is supported by the "The Ideal Dataset" section of the book "AI at the Edge," which emphasizes the importance of having balanced datasets to avoid bias in the model.
+Based on feedback from teaching staff, it was recommended that an equal number of images be included for each object in both training and test datasets. This would help ensure the model is trained and tested on each object equally and improve overall accuracy.  To provide optimal training and testing of the model, having an equal number of images for each object in the training and test datasets. This advice is supported by the "The Ideal Dataset" section of the book "AI at the Edge," which emphasizes the importance of having balanced datasets to avoid bias in the model(O'Reilly Media, Inc., 2023).
 
 ![split of the data](https://github.com/Gil-ADDA/CE-LAB/blob/5dd489074ee6368cd160508a72b5791f405d4a10/image/split%20of%20the%20data.png)
 
@@ -108,7 +108,7 @@ To use this new dataset to improve the object detection model, transfer learning
 It's important to note that collecting a new dataset and retraining the model can be a resource-intensive process that requires careful evaluation of performance on a separate validation dataset. Additionally, investing in additional hardware, such as GPUs, may be necessary to train the model efficiently.
 Critical Reflection and Lessons Learned
 
-Transfer learning can be used for both image classification and object detection, but image classification was more suitable for this project than object detection. Initially, the bounding box feature of object detection was appealing, but I lacked the resources to create a comprehensive dataset and the time to implement it. For those considering object detection, consider the time and resources needed to match the desired outcome with the data. For data requirements, refer to the table and explanation in AI at the Edge (O'Reilly Media, Inc., 2023) (attached below).
+Transfer learning can be used for both image classification and object detection, but image classification was more suitable for this project than object detection. Initially, the bounding box feature of object detection was appealing, but I lacked the resources to create a comprehensive dataset and the time to implement it. For those considering object detection, consider the time and resources needed to match the desired outcome with the data. For data requirements, refer to the table ,from chapter 7, and explanation in AI at the Edge (O'Reilly Media, Inc., 2023) (attached below).
 
 ![Data requirmentes Table](https://github.com/Gil-ADDA/CE-LAB/blob/1591c633fefef7717f39c174b17560ccd6428153/image/Data%20requirements%20for%20common%20tasks.png)
 
@@ -133,8 +133,9 @@ To use this new dataset to improve the object detection model, transfer learning
 ## Refrences
 Edge Impulse. (n.d.). Object detection. Retrieved March 18, 2023, from https://docs.edgeimpulse.com/docs/tutorials/object-detection
 
-O'Reilly Media, Inc. (2023). AI at the Edge: A Developer's Guide. O'Reilly Media, Inc. Retrieved from https://learning.oreilly.com/library/view/ai-at-the/9781098120191/
+Situnayake, D. and Plunkett, J. (2023). Estimating Data Requirements. In: AI at the Edge: A Developer's Guide. O'Reilly Media, Inc. Available at: https://learning.oreilly.com/library/view/ai-at-the/9781098120191/ch07.html#idm45988813512176 (Accessed: April 25, 2023)
 
+Situnayake, D. and Plunkett, J. (2020). How to Build a Dataset: The Ideal Dataset, Balanced. In: AI at the Edge. O'Reilly Media. Available at: https://learning.oreilly.com/library/view/ai-at-the/9781098120191/ch07.html#idm45988813512176 (Accessed: 24 April, 2023).
 
 ## MIT License
 
