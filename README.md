@@ -9,6 +9,9 @@ The project employs a transfer learning approach to train an image classificatio
 
 The image classification model can be accessed by students and guests in the lab to help them identify the wind spiral and wind barometer objects. This interactive experience aims to foster better engagement and understanding of the devices in the lab, benefiting both students and guests. Possible future work includes improving the model's performance by collecting a more diverse dataset and incorporating an object detection model.
 
+# problem statement 
+The Connected Environment Lab has a variety of unique devices and projects that can be difficult for students and visitors to engage with and understand. In particular, the wind spiral and wind barometer objects are visually impressive but require explanation to fully appreciate. The goal of this project is to develop an image classification program using transfer learning that can accurately detect and identify these objects in order to enhance engagement and understanding of the devices in the lab. The challenge is to achieve high accuracy with a relatively small dataset
+
 
 # Research question 
 
