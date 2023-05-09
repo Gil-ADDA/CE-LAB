@@ -73,11 +73,16 @@ After spending several weeks creating new datasets and running models on Edge Im
 As a result, I started a new project in TensorFlow that follows this approach. I included images of wind spirals and wind barometers with different backgrounds, but the focus of each image was on the object of interest. This approach has shown promising results, although the project is still ongoing, and further optimization may be required. (Images of the new dataset can be found below.)
 
 # Images of the first attemps of the dataset (Edge impulse)
+The following screenshot showcases a few bad examples of the different types of images that were uploaded to the Edge Impulse project
 ![Old Dataset](https://github.com/Gil-ADDA/CE-LAB/raw/75cd12f0f733c0bce10c60d37cd8ccc27e5b6eed/image/Old%20Dataset.png)
 
 
 # Images of the new datasets (TensorFlow)
+The accompanying screenshot displays several examples of the types of images uploaded to the TensorFlow project. Compared to the previous dataset, these images are cleaner and more focused on the object of interest.
 ![New Dataset](https://github.com/Gil-ADDA/CE-LAB/blob/48d980aa8a37915f5496a123c770a9b3924f68b3/image/New%20Dataset.png)
+
+
+It's worth noting that Edge Impulse is a user-friendly and convenient tool. However, I ultimately switched to TensorFlow for this project because, at the time, some of the capabilities necessary for identifying two unique objects were not available to free users on Edge Impulse. I believed that the greater flexibility offered by TensorFlow would be more helpful in achieving my project goal.
 
 # Screenshot and link to the TensorFlow project 
 
