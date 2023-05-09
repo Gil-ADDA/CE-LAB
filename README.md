@@ -37,6 +37,8 @@ Next, I uploaded the images to the Edge Impulse platform. The images were resize
 I set up a processing block for the image data, which preprocesses and normalizes the images.
 I configured a learning block using transfer learning for images. This fine-tunes a pre-trained image classification model on my dataset.
 
+![Edge-Impulse learning block](https://github.com/Gil-ADDA/CE-LAB/blob/0ef6f2352801a14fb946319877d21ce1ab913700/image/Edge%20impuse%20learning%20block%20interface.png)
+
 
 ## 3. Data Exploration and Feature Visualization
 Throughout the process, Edge Impulse's Data Explorer tool was used to identify the characteristics of each image and how the model categorized them. Data Explorer shows all project data and was created by passing input through a pre-trained visual model. This allows for fast analysis of the data, including feature distributions and relations between each of the images. Pre-trained model data exploration has advantages like faster results and improved performance compared to training from scratch. When data sets are small, this pre-trained model knowledge can be adjusted to suit the data.
