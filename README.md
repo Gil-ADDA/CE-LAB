@@ -142,7 +142,7 @@ Edge Impulse. (n.d.). Object detection. Retrieved March 18, 2023, from https://d
 
 Situnayake, D. and Plunkett, J. (2023). Estimating Data Requirements. In: AI at the Edge: A Developer's Guide. O'Reilly Media, Inc. Available at: https://learning.oreilly.com/library/view/ai-at-the/9781098120191/ch07.html#idm45988813512176 (Accessed: April 25, 2023)
 
-Situnayake, D. and Plunkett, J. (2020). How to Build a Dataset: The Ideal Dataset, Balanced. In: AI at the Edge. O'Reilly Media. Available at: https://learning.oreilly.com/library/view/ai-at-the/9781098120191/ch07.html#idm45988813512176 (Accessed: 24 April, 2023).
+Situnayake, D. and Plunkett, J. (2023). How to Build a Dataset: The Ideal Dataset, Balanced. In: AI at the Edge. O'Reilly Media. Available at: https://learning.oreilly.com/library/view/ai-at-the/9781098120191/ch07.html#idm45988813512176 (Accessed: 24 April, 2023).
 
 TensorFlow. (n.d.). Transfer learning and fine-tuning. Retrieved from https://www.tensorflow.org/tutorials/images/transfer_learning 
 ## MIT License
