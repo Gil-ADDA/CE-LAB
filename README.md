@@ -74,6 +74,7 @@ After spending several weeks creating new datasets and running models on Edge Im
 As a result, I started a new project in TensorFlow that follows this approach. I included images of wind spirals and wind barometers with different backgrounds, but the focus of each image was on the object of interest. This approach has shown promising results, although the project is still ongoing, and further optimization may be required. (Images of the new dataset can be found below.)
 
 # Images of the first attemps of the dataset (Edge impulse)
+![Old Dataset](https://github.com/Gil-ADDA/CE-LAB/raw/75cd12f0f733c0bce10c60d37cd8ccc27e5b6eed/image/Old%20Dataset.png)
 
 
 # Images of the new datasets (TensorFlow)
