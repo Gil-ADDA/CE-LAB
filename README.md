@@ -36,7 +36,7 @@ I configured a learning block using transfer learning for images. This fine-tune
 ## 3. Data Exploration and Feature Visualization
 Throughout the process, Edge Impulse's Data Explorer tool was used to identify the characteristics of each image and how the model categorized them. Data Explorer shows all project data and was created by passing input through a pre-trained visual model. This allows for fast analysis of the data, including feature distributions and relations between each of the images. Pre-trained model data exploration has advantages like faster results and improved performance compared to training from scratch. When data sets are small, this pre-trained model knowledge can be adjusted to suit the data.
 
-![Data Explorer](https://github.com/Gil-ADDA/CE-LAB/blob/4bc06f64ee0e758ea9d4a4ba2524ebef6b4640e2/image/Data%20Explorer.png)
+![Data Explorer](https://github.com/Gil-ADDA/CE-LAB/blob/70664a08f860f2fc9c783fa6262c89780430bca4/image/Data%20Explorerr.png)
 
 ## 4. Model Selection
 For the image classification task, I chose to use transfer learning with the MobileNetV2 96x96 1.0 model (no final dense layer, 0.3 dropout) to leverage the knowledge of a pre-trained model and fine-tune it on my dataset. This approach allows for improved performance even with relatively small image datasets.
