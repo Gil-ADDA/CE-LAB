@@ -77,7 +77,7 @@ As a result, I started a new project in TensorFlow that follows this approach. I
 
 
 # Images of the new datasets (TensorFlow)
-![New Dataset](https://github.com/Gil-ADDA/CE-LAB/raw/75cd12f0f733c0bce10c60d37cd8ccc27e5b6eed/image/New%20Dataset.png)
+![New Dataset](https://github.com/Gil-ADDA/CE-LAB/blob/48d980aa8a37915f5496a123c770a9b3924f68b3/image/New%20Dataset.png)
 
 # Screenshot and link to the TensorFlow project 
 
