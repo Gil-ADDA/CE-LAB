@@ -65,6 +65,19 @@ After training the image classification model with transfer learning, I tested i
 ![QR Code](https://github.com/Gil-ADDA/CE-LAB/blob/78db88dd2031858951dd2e66a405a8f9987847d3/image/QR-CODE.png)
 
 
+# Optimizing Image Dataset for Effective Model Training in Machine Learning Project
+
+Upon starting my machine learning project, my goal was to train a model in Edge Impulse to distinguish between correct and incorrect images of wind spirals and wind barometers. I initially included a wide range of images from various angles, positions, lighting conditions, and backgrounds. However, through continued experimentation and research, I discovered that my dataset was not optimal for effectively training the model. The presence of extraneous objects around the objects of interest and incomplete images of the desired object reduced the accuracy of the model. Some images did not even contain the objects I was trying to detect.
+
+After spending several weeks creating new datasets and running models on Edge Impulse, I turned to the TensorFlow example project that detects cats and dogs for inspiration. I noticed that the majority of images in the dataset contained either cats or dogs as the primary object of interest, even though the backgrounds were varied. This approach of including images with the object of interest occupying most of the frame without other distracting elements proved to be a more effective method for training the model.
+
+As a result, I started a new project in TensorFlow that follows this approach. I included images of wind spirals and wind barometers with different backgrounds, but the focus of each image was on the object of interest. This approach has shown promising results, although the project is still ongoing, and further optimization may be required. (Images of the new dataset can be found below.)
+
+# Images of the first attemps of the dataset (Edge impulse)
+
+
+# Images of the new datasets (TensorFlow)
+
 
 
 # Video Preview of the Model 
