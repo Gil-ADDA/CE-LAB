@@ -60,6 +60,7 @@ I trained the model using the processed images and learning block configuration 
 
 After training the image classification model with transfer learning, I tested it with 23% of the dataset and achieved an accuracy of 93.5%. To determine the optimal validation set size, I experimented with various parameters and found good performance with a size of 40. I classified all the test images using the model and set the threshold at 0.8 (80%). In March 2022, EON Tuner was only available for enterprise use, which may be useful for identifying appropriate architecture for ML projects.
 
+It's worth noting that while this model performed well, there is always a risk of overfitting when training on a small dataset. To address this, I plan to further validate the model on additional datasets in the future.
 ![Result of the Model](https://github.com/Gil-ADDA/CE-LAB/blob/fe0ba971f1ac7ddcd916a45734f81571d11a0c33/image/Result%20of%20the%20model1.png)
 
 ![Test Data 88%](https://github.com/Gil-ADDA/CE-LAB/blob/4bc06f64ee0e758ea9d4a4ba2524ebef6b4640e2/image/Test%20Data%2088%25.png)
