@@ -24,7 +24,10 @@ The project was motivated by the need to improve engagement with the devices and
 
 # Getting Started Image Classification Model Using Transfer Learning
 ## 1. Dataset Collection and Split
-I started by collecting a dataset of 149 images, consisting of two labels representing the unique objects in the lab - the wind spiral and wind barometer. I divided the dataset into training and test sets, following a 77% training and 23% test split, which is close to the commonly recommended 80% training and 20% test split.
+To begin, I collected a dataset of 149 images, including two labels representing the unique objects in the lab - the wind spiral and wind barometer. I then divided the dataset into training and test sets, following a 77% training and 23% test split, which aligns with the commonly recommended 80% training and 20% test split. In the training set, there were 74 images of wind spirals and 40 images of wind barometers, while the test set had 11 images of wind barometers and 24 images of wind spirals.
+
+Based on feedback from teaching staff, it was recommended that an equal number of images be included for each object in both training and test datasets. This would help ensure the model is trained and tested on each object equally and improve overall accuracy.  To provide optimal training and testing of the model, having an equal number of images for each object in the training and test datasets. This advice is supported by the "The Ideal Dataset" section of the book "AI at the Edge," which emphasizes the importance of having balanced datasets to avoid bias in the model.
+
 ![split of the data](https://github.com/Gil-ADDA/CE-LAB/blob/5dd489074ee6368cd160508a72b5791f405d4a10/image/split%20of%20the%20data.png)
 
 ## 2. Image Upload and Preprocessing block Configuration 
