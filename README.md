@@ -103,8 +103,6 @@ Moreover before considering the question of how much data is required for your p
 
 The Link to the forum [https://forum.edgeimpulse.com/t/improve-performance-of-an-object-detection/6922/7](https://forum.edgeimpulse.com/t/improve-performance-of-an-object-detection/6922/7)
 
-# For future work, there are several steps that could be taken to improve the project. One possibility is to create a  project in TensorFlow that is better able to detect both the wind spiral and wind barometer objects without relying on previous datasets. In addition, to the existing images, I'm thinking to add another type of image that includes examples of both objects in the same image. This can help to improve the accuracy of the transfer learning model and its ability to recognize and classify both objects together.
-
 To use this new dataset to improve the object detection model, transfer learning can be employed. This involves fine-tuning a pre-trained model on a new dataset. By doing this, the model can learn to recognize the features of both objects together, improving its accuracy on the task of object detection.
 
 It's important to note that collecting a new dataset and retraining the model can be a resource-intensive process that requires careful evaluation of performance on a separate validation dataset. Additionally, investing in additional hardware, such as GPUs, may be necessary to train the model efficiently.
