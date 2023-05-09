@@ -33,9 +33,8 @@ Based on feedback from teaching staff, it was recommended that an equal number o
 ![split of the data](https://github.com/Gil-ADDA/CE-LAB/blob/5dd489074ee6368cd160508a72b5791f405d4a10/image/split%20of%20the%20data.png)
 
 ## 2. Image Upload and Preprocessing block Configuration 
-Next, I uploaded the images to the Edge Impulse platform. The images were resized to 96x96 pixels, and preprocessing and normalization were applied to the image data. The color depth was kept as RGB. 
-I set up a processing block for the image data, which preprocesses and normalizes the images.
-I configured a learning block using transfer learning for images. This fine-tunes a pre-trained image classification model on my dataset.
+After collecting the images, I uploaded them to the Edge Impulse platform for further processing. To prepare the images for model training, I first resized them to a standardized 96x96 pixel size, and applied preprocessing and normalization techniques to the image data. To maintain consistency, I kept the images' color depth as RGB. 
+To further prepare the image data for model training, I created a processing block within the Edge Impulse platform. This block preprocessed and normalized the images, making it easier for the model to process the images and facilitating faster detection of the wind spiral and wind barometer objects.
 
 ![Edge-Impulse learning block](https://github.com/Gil-ADDA/CE-LAB/blob/0ef6f2352801a14fb946319877d21ce1ab913700/image/Edge%20impuse%20learning%20block%20interface.png)
 
