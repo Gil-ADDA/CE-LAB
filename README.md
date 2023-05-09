@@ -12,7 +12,7 @@ The image classification model can be accessed by students and guests in the lab
 # problem statement 
 The Connected Environment Lab has a variety of unique devices and projects that can be difficult for students and visitors to engage with and understand. In particular, the wind spiral and wind barometer objects are visually impressive but require explanation to fully appreciate. The goal of this project is to develop an image classification program using transfer learning that can accurately detect and identify these objects in order to enhance engagement and understanding of the devices in the lab. The challenge is to achieve high accuracy with a relatively small dataset
 
-
+![WindS Objects](https://github.com/Gil-ADDA/CE-LAB/blob/7ab792b29093a8fc4cc896c16054d685e39c08ff/image/WindS%20Objects.png)
 # Research question 
 
 The research question for this project was initially formulated as "What is the impact of using an image classification program on increasing engagement with the devices in the Connected Environment Lab?" However, based on feedback from the teaching staff, the question was revised to be more focused on the requirements of the course. The new research question is: 
