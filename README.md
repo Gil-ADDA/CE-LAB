@@ -78,6 +78,11 @@ As a result, I started a new project in TensorFlow that follows this approach. I
 
 
 # Images of the new datasets (TensorFlow)
+![New Dataset](https://github.com/Gil-ADDA/CE-LAB/raw/75cd12f0f733c0bce10c60d37cd8ccc27e5b6eed/image/New%20Dataset.png)
+
+# Screenshot and link to the TensorFlow project 
+
+https://colab.research.google.com/drive/1fRwoDW84URBEveKRxg-vPBQK_DPzI-xO#scrollTo=ro4oYaEmxe4r 
 
 
 
