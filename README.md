@@ -1,10 +1,5 @@
 
-
 ## CE-LAB  Image Classification Model Using Edge Impulse
-
-
-
-
 
 # Project Overview
 
@@ -19,8 +14,6 @@ The image classification model can be accessed by students and guests in the lab
 The project was motivated by the need to improve engagement with the devices and projects in the Connected Environment Lab, both for students and guests. The primary objective is to detect two unique objects in the lab - the wind spiral and wind barometer - using an image classification program. The lab receives a lot of visitors, and with the increasing number of devices and projects, it can be challenging for visitors to understand the narrative and functionality of each project. The wind spiral and wind barometer are two examples of devices that visitors find intriguing but may not understand fully without the help of a teaching staff member. The project's short-term benefits include allowing guests to interact with and learn about these devices in a more meaningful way. The long-term goal is to create a virtual hub of all the projects in the lab, which will be open to everyone. Students and guests can connect with the co-creators of the projects and consult with them, potentially leading to the evolution of these projects or the creation of similar ones. The dataset used for this project consists of 149 images for both wind spiral and wind barometer classes. While working on the project, I faced challenges in achieving good results and figuring out the right amount of data required for the project to work. After experimenting with different approaches, I decided to pivot to transfer learning based on recommendations from the book Algorithms for Edge AI. 
 
 ![Object detection bounding box attempts](https://github.com/Gil-ADDA/CE-LAB/blob/d6dc0140d765485b9b29957252cfe8582ada2612/image/Object%20detection%20bounding%20box%20attempts.png)
-
-
 
 # Getting Started Image Classification Model Using Transfer Learning
 ## 1. Dataset Collection and Split
@@ -52,8 +45,6 @@ I trained the model using the processed images and learning block configuration 
 ![Transfer Learning Documentation](https://github.com/Gil-ADDA/CE-LAB/blob/78db88dd2031858951dd2e66a405a8f9987847d3/image/transfer%20learning%20documention%20.png)
 
 ![Training Data](https://github.com/Gil-ADDA/CE-LAB/blob/4bc06f64ee0e758ea9d4a4ba2524ebef6b4640e2/image/Training%20Data.png)
-
-
 
 
 ## 6. Model Testing and Result
@@ -96,21 +87,6 @@ https://colab.research.google.com/drive/1fRwoDW84URBEveKRxg-vPBQK_DPzI-xO#scroll
 # Video Preview of the Model 
 [![Video Thumbnail](https://img.youtube.com/vi/nQ7Ruwu12t8/0.jpg)](https://www.youtube.com/watch?v=nQ7Ruwu12t8)
 
-# Challenges faced during development
-Obtaining accurate results proved difficult during development. Additionally, finding the right dataset size was an issue; only 20 images were initially used and more were added as time went on, including images without the object and changes to the background. To gain a better understanding of machine learning, I employed various techniques and asked the Edge Impulse community for guidance (Attached underneath this paragraph). I studied other projects, articles, and books for additional insights. I also tweaked the model's variables, like architecture and image size, to boost performance.
-Moreover before considering the question of how much data is required for your personal project, it is suggested to read the chapter on "Estimating Data Requirements" in the book "AI at the Edge" by Jason M. Pittman (2021) 
-![Edge impusle community](https://github.com/Gil-ADDA/CE-LAB/blob/af24f8076a5d3730215290e521f82f2a187943f6/image/Edge%20impulse%20community.png)
-
-The Link to the forum [https://forum.edgeimpulse.com/t/improve-performance-of-an-object-detection/6922/7](https://forum.edgeimpulse.com/t/improve-performance-of-an-object-detection/6922/7)
-
-To use this new dataset to improve the object detection model, transfer learning can be employed. This involves fine-tuning a pre-trained model on a new dataset. By doing this, the model can learn to recognize the features of both objects together, improving its accuracy on the task of object detection.
-
-It's important to note that collecting a new dataset and retraining the model can be a resource-intensive process that requires careful evaluation of performance on a separate validation dataset. Additionally, investing in additional hardware, such as GPUs, may be necessary to train the model efficiently.
-Critical Reflection and Lessons Learned
-
-Transfer learning can be used for both image classification and object detection, but image classification was more suitable for this project than object detection. Initially, the bounding box feature of object detection was appealing, but I lacked the resources to create a comprehensive dataset and the time to implement it. For those considering object detection, consider the time and resources needed to match the desired outcome with the data. For data requirements, refer to the table ,from chapter 7, and explanation in AI at the Edge (O'Reilly Media, Inc., 2023) (attached below).
-
-![Data requirmentes Table](https://github.com/Gil-ADDA/CE-LAB/blob/1591c633fefef7717f39c174b17560ccd6428153/image/Data%20requirements%20for%20common%20tasks.png)
 
 # Workspace
 Edge Impulse 
@@ -123,12 +99,18 @@ Google Sheets <br> <img src="https://www.gstatic.com/images/branding/product/1x/
 
 In this project, Google Sheets was used to document the experimentation process on Edge Impulse. This included documenting all the tweaks made to the models, as well as testing various different models during the training phase. The results of these tests were also documented, along with the results of the testing phase. By using Google Sheets to track and document the experimentation process, it allowed for a more organized and efficient workflow, making it easier to keep track of the various experiments performed on Edge Impulse.
 
+# Challenges faced during development
+Obtaining accurate results proved difficult during development. Additionally, finding the right dataset size was an issue; only 20 images were initially used and more were added as time went on, including images without the object and changes to the background. To gain a better understanding of machine learning, I employed various techniques and asked the Edge Impulse community for guidance (Attached underneath this paragraph). I studied other projects, articles, and books for additional insights. I also tweaked the model's variables, like architecture and image size, to boost performance.
+Moreover before considering the question of how much data is required for your personal project, it is suggested to read the chapter on "Estimating Data Requirements" in the book "AI at the Edge" by Jason M. Pittman (2021) 
+![Edge impusle community](https://github.com/Gil-ADDA/CE-LAB/blob/af24f8076a5d3730215290e521f82f2a187943f6/image/Edge%20impulse%20community.png)
 
-### The link to the original Sheet (Object detection and transfer learning)  https://docs.google.com/spreadsheets/d/1LEAihPLvVjIKXl6ZXBGP7pdwTo1F_FSEUE8_gQM_ccs/edit?usp=sharing
-## Contact Details
-[<img src="https://img.icons8.com/color/48/000000/gmail.png"/>](mailto:giloo1047@gmail.com)
-[<img src="https://img.icons8.com/color/48/000000/linkedin.png"/>](https://www.linkedin.com/in/gil-adda-16385510b/)
+The Link to the forum [https://forum.edgeimpulse.com/t/improve-performance-of-an-object-detection/6922/7](https://forum.edgeimpulse.com/t/improve-performance-of-an-object-detection/6922/7)
 
+# Critical Reflection and Lessons Learned
+
+Transfer learning can be used for both image classification and object detection, but image classification was more suitable for this project than object detection. Initially, the bounding box feature of object detection was appealing, but I lacked the resources to create a comprehensive dataset and the time to implement it. For those considering object detection, consider the time and resources needed to match the desired outcome with the data. For data requirements, refer to the table ,from chapter 7, and explanation in AI at the Edge (O'Reilly Media, Inc., 2023) (attached below).
+
+![Data requirmentes Table](https://github.com/Gil-ADDA/CE-LAB/blob/1591c633fefef7717f39c174b17560ccd6428153/image/Data%20requirements%20for%20common%20tasks.png)
 
 
 # Future work
@@ -136,6 +118,13 @@ In this project, Google Sheets was used to document the experimentation process 
 For future work, there are several steps that could be taken to improve the project. One possibility is to create a  project in TensorFlow that is better able to detect both the wind spiral and wind barometer objects without relying on previous datasets. In addition, to the existing images, I'm thinking to add another type of image that includes examples of both objects in the same image. This can help to improve the accuracy of the transfer learning model and its ability to recognize and classify both objects together.
 
 To use this new dataset to improve the object detection model, transfer learning can be employed. This involves fine-tuning a pre-trained model on a new dataset. By doing this, the model can learn to recognize the features of both objects together, improving its accuracy on the task of object detection.
+
+### The link to the original Sheet (Object detection and transfer learning)  https://docs.google.com/spreadsheets/d/1LEAihPLvVjIKXl6ZXBGP7pdwTo1F_FSEUE8_gQM_ccs/edit?usp=sharing
+
+## Contact Details
+[<img src="https://img.icons8.com/color/48/000000/gmail.png"/>](mailto:giloo1047@gmail.com)
+[<img src="https://img.icons8.com/color/48/000000/linkedin.png"/>](https://www.linkedin.com/in/gil-adda-16385510b/)
+
 
 ## Refrences
 Edge Impulse. (n.d.). Object detection. Retrieved March 18, 2023, from https://docs.edgeimpulse.com/docs/tutorials/object-detection
