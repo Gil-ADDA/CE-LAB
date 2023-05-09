@@ -94,6 +94,8 @@ https://colab.research.google.com/drive/1fRwoDW84URBEveKRxg-vPBQK_DPzI-xO#scroll
 ![Tensorflow screenshot](https://github.com/Gil-ADDA/CE-LAB/blob/a4a19400f73572da09109843080afea15d62e0c2/image/Tensorflow%20project%20screenshot.png)
 
 # Video Preview of the Model 
+In the video demonstration, the image classification model is shown in action. As the camera is directed towards either the wind barometer or the wind spiral, the model quickly detects the object and labels it underneath the camera frame. However, if the camera is not directed towards either object, the model labels it as "unknown". This indicates that the model did not receive sufficient visual input to confidently classify the object with at least 80% accuracy. 
+
 [![Video Thumbnail](https://img.youtube.com/vi/nQ7Ruwu12t8/0.jpg)](https://www.youtube.com/watch?v=nQ7Ruwu12t8)
 
 
