@@ -116,7 +116,13 @@ Transfer learning can be used for both image classification and object detection
 Edge Impulse 
 <br> <img src="https://www.edge-ai-vision.com/wp-content/uploads/2021/05/logo_edgeimpulse_may_2021.png" width="80" height="60">
 
+In this project, Edge Impulse was utilized in three key ways. Firstly, the platform was used to store, tag, and split the dataset for efficient management. Secondly, it was utilized for building, training, and testing the machine learning model using various available algorithms. Finally, the trained model was deployed on an iPhone 12, enabling the execution of the model locally on the device
+
+
 Google Sheets <br> <img src="https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_32dp.png" width="60" height="60"> (Used for documenting the results of training and testing)
+
+In this project, Google Sheets was used to document the experimentation process on Edge Impulse. This included documenting all the tweaks made to the models, as well as testing various different models during the training phase. The results of these tests were also documented, along with the results of the testing phase. By using Google Sheets to track and document the experimentation process, it allowed for a more organized and efficient workflow, making it easier to keep track of the various experiments performed on Edge Impulse.
+
 
 ### The link to the original Sheet (Object detection and transfer learning)  https://docs.google.com/spreadsheets/d/1LEAihPLvVjIKXl6ZXBGP7pdwTo1F_FSEUE8_gQM_ccs/edit?usp=sharing
 ## Contact Details
