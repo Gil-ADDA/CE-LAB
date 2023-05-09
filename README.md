@@ -71,7 +71,7 @@ It's worth noting that while this model performed well, there is always a risk o
 
 Upon starting my machine learning project, my goal was to train a model in Edge Impulse to distinguish between correct and incorrect images of wind spirals and wind barometers. I initially included a wide range of images from various angles, positions, lighting conditions, and backgrounds. However, through continued experimentation and research, I discovered that my dataset was not optimal for effectively training the model. The presence of extraneous objects around the objects of interest and incomplete images of the desired object reduced the accuracy of the model. Some images did not even contain the objects I was trying to detect.
 
-After spending several weeks creating new datasets and running models on Edge Impulse, I turned to the TensorFlow example project that detects cats and dogs for inspiration. I noticed that the majority of images in the dataset contained either cats or dogs as the primary object of interest, even though the backgrounds were varied. This approach of including images with the object of interest occupying most of the frame without other distracting elements proved to be a more effective method for training the model.
+After spending several weeks creating new datasets and running models on Edge Impulse, I turned to the TensorFlow example project that detects cats and dogs for inspiration. I noticed that the majority of images in the dataset contained either cats or dogs as the primary object of interest, even though the backgrounds were varied. This approach of including images with the object of interest occupying most of the frame without other distracting elements proved to be a more effective method for training the model(TensorFlow, n.d.).
 
 As a result, I started a new project in TensorFlow that follows this approach. I included images of wind spirals and wind barometers with different backgrounds, but the focus of each image was on the object of interest. This approach has shown promising results, although the project is still ongoing, and further optimization may be required. (Images of the new dataset can be found below.)
 
@@ -144,6 +144,7 @@ Situnayake, D. and Plunkett, J. (2023). Estimating Data Requirements. In: AI at 
 
 Situnayake, D. and Plunkett, J. (2020). How to Build a Dataset: The Ideal Dataset, Balanced. In: AI at the Edge. O'Reilly Media. Available at: https://learning.oreilly.com/library/view/ai-at-the/9781098120191/ch07.html#idm45988813512176 (Accessed: 24 April, 2023).
 
+TensorFlow. (n.d.). Transfer learning and fine-tuning. Retrieved from https://www.tensorflow.org/tutorials/images/transfer_learning 
 ## MIT License
 
 Copyright (c) 2023 Gil Adda
