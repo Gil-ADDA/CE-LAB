@@ -1,5 +1,10 @@
 
 ## CE-LAB  Image Classification Model Using Edge Impulse
+<p align="center">
+  <a href=" ">
+    <h1><a href=" ">Github Repository Link</a></h1>
+  </a>
+</p>
 
 # Project Overview
 
