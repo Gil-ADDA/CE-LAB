@@ -24,6 +24,8 @@ This project started as an object detection project, aiming to detect two unique
 Throughout the project, the terms "object detection" and "image classification" may be used interchangeably, but the fundamental goal remains the same - to accurately detect and classify the wind spiral and wind barometer objects. The choice to utilize image classification over object detection was made to achieve better performance with the small dataset. 
 *see the diffrences in the image below(adapted from DataCamp, 2018).
 
+![Exmple from DataCamp](https://github.com/Gil-ADDA/CE-LAB/blob/ef14ef0d8d21c367b88908499b6ad4e75ce8f532/image/Object-D-VS-Image-Class.jpeg)
+
 
 
 
