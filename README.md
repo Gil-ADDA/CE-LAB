@@ -55,7 +55,7 @@ Throughout the process, Edge Impulse's Data Explorer tool was used to identify t
 ![Data Explorerr](https://github.com/Gil-ADDA/CE-LAB/blob/70664a08f860f2fc9c783fa6262c89780430bca4/image/Data%20Explorerr.png)
 
 ## 4. Model Selection
-To improve the performance of the image classification task, I employed transfer learning with the MobileNetV2 96x96 1.0 model, which was pre-trained on a large dataset and fine-tuned on my small dataset. This approach proved effective in achieving better results even with a limited amount of data. Additionally, the comparison of the experimentation results of the transfer learning process can be found in the Model Training section of this project's repository.
+To improve the performance of the image classification task, I employed transfer learning with the MobileNetV2 96x96 1.0 model, which was pre-trained on a large dataset and fine-tuned on my small dataset. This approach proved effective in achieving better results even with a limited amount of data. Additionally, the comparison of the experimentation results of the transfer learning process can be found in the [Model Training](#Model Training) section of this project's repository.
 
 Moreover, based on the Model Architectures section in Chapter 4 of the book "AI at the Edge" by O'Reilly Media, I would recommend sticking with the MobileNetV2 architecture as it is suitable for deployment on mobile devices. The pre-trained MobileNetV2 model provides an excellent starting point for transfer learning and can be fine-tuned to achieve better performance on specific tasks.
 
