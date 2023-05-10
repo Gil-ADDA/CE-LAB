@@ -82,6 +82,9 @@ After training the image classification model with transfer learning, I tested i
 It's worth noting that while this model performed well, there is always a risk of overfitting when training on a small dataset. To address this, I plan to further validate the model on additional datasets in the future.
 ![Result of the Model](https://github.com/Gil-ADDA/CE-LAB/blob/fe0ba971f1ac7ddcd916a45734f81571d11a0c33/image/Result%20of%20the%20model1.png)
 
+### Confusion matrix 
+In the confusion matrix it can be seen that the model performed excellently, achieving an overall F1 score of 0.95. It accurately identified all wind barometer images in the validation set with 100% precision. However, it misclassified 7.7% of the wind spiral images as wind barometer, resulting in 92.3% recall. Moreover the performance of the model may vary with different datasets and evaluation metrics. It's important to note that the 100% precision achieved in classifying all wind barometer images in the validation set indicates that it has been trained to accurately identify features of these images. However, this is likely due to the small size of the dataset. It's possible that with a larger and more diverse dataset, the precision score could decrease.
+
 ![Test Data 88%](https://github.com/Gil-ADDA/CE-LAB/blob/4bc06f64ee0e758ea9d4a4ba2524ebef6b4640e2/image/Test%20Data%2088%25.png)
 
 ![QR Code](https://github.com/Gil-ADDA/CE-LAB/blob/41c259b2ea9fcb6b82219b435a827d8d70bb0494/image/QR-CODE%20Small.jpeg)
