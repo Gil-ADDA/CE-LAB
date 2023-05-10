@@ -154,10 +154,12 @@ Transfer learning can be used for both image classification and object detection
 # Future work
 In order to improve this project, there are several steps that can be taken.
 First, a larger dataset can be created for each object, with at least 300 images for each object and ensuring that the object is the main part of the image (occupying more than 70% of the image). To improve training efficiency and accuracy, transfer learning with image classification can be used. Additionally, a new chunk of dataset can be created with both objects in one image, which can help to improve the model's ability to recognize and classify both objects together.
-Given the success of the MobileNet model architecture for this project, it will be used going forward. In order to make the project accessible to new students and visitors, a web application will be developed that allows users to easily detect and identify the objects in the CE-Lab using their smartphones (The web page files for this project are included in this repository as well. These files contain the HTML, CSS, and JavaScript (templates) code that is used to create the web application for the “CE-lab object detection”). Additionally, the vision of the user interface of the app is attached in the image underneath designed in Hotpot that provides an overview of how the model will look in action.
+Given the success of the MobileNet model architecture for this project, it will be used going forward. In order to make the project accessible to new students and visitors, a web application will be developed that allows users to easily detect and identify the objects in the CE-Lab using their smartphones.
 
-The Link to Hotpot
-<a href="https://hotpot.ai/" target="_blank"><img src="https://img.shields.io/badge/-hotpot-181717?style=flat-square&logo=GitHub&logoColor=white"></a>
+The web page files for this project are included in this repository as well. These files contain the HTML, CSS, and JavaScript (templates) code that is used to create the web application for the “CE-lab object detection”.
+Additionally, the vision of the user interface of the app is attached in the image underneath designed in Hotpot<a href="https://hotpot.ai/" target="_blank"><img src="https://img.shields.io/badge/-hotpot-181717?style=flat-square&logo=GitHub&logoColor=white"></a> that provides an overview of how the model will look in action.
+
+
 
 ![WEB-APP](https://github.com/Gil-ADDA/CE-LAB/blob/468516b6af0e46fc6519c8d275403c36a74bc69b/image/WEB%20APP%20CE-LAB.png)
 
