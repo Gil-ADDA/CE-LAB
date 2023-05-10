@@ -50,12 +50,13 @@ To improve the performance of the image classification task, I employed transfer
 Moreover, based on the Model Architectures section in Chapter 4 of the book "AI at the Edge" by O'Reilly Media, I would recommend sticking with the MobileNetV2 architecture as it is suitable for deployment on mobile devices. The pre-trained MobileNetV2 model provides an excellent starting point for transfer learning and can be fine-tuned to achieve better performance on specific tasks.
 
 ## 5. Model Training
-I trained the model using the processed images and learning block configuration with a batch size of 32 and 40 epochs. To address overfitting issues, I modified the Keras expert mode settings, setting the learning rate to 0.0015. I didn't use the auto-balance dataset or data augmentation options in this case, as I was not aware of the need to add them manually in the Keras code at the time. Despite this, the model testing results showed an accuracy of 94.29%, indicating that the model is effective in identifying the wind spiral and wind barometer objects. However, it's important to consider using data augmentation and class balancing techniques in future projects, especially when working with a small dataset like mine. Data augmentation can help prevent overfitting by artificially increasing the size of the training dataset and adding diversity to the data. Class balancing can ensure that the model has equal representation of all classes, even when one class has significantly more samples than another.
+I trained the model using the processed images and learning block configuration with a batch size of 32 and 40 epochs. To address overfitting issues, I modified the Keras expert mode settings, setting the learning rate to 0.0015. I didn't use the auto-balance dataset or data augmentation options in this case, as I was not aware of the need to add them manually in the Keras code (Expert mode) at the time. Despite this, the model testing results showed an accuracy of 94.29%, indicating that the model is effective in identifying the wind spiral and wind barometer objects. However, it's important to consider using data augmentation and class balancing techniques in future projects, especially when working with a small dataset like in this project. Data augmentation can help prevent overfitting by artificially increasing the size of the training dataset and adding diversity to the data. Class balancing can ensure that the model has equal representation of all classes, even when one class has significantly more samples than another.
 
 After experimenting with various hyperparameters, I found that a dropout rate of 0.3 was most suitable for my model and helped to prevent overfitting. It can be seeing in the code the BatchNormalization layer, which was used to improve performance of the model and make it more stable. This layer helps to normalize the activations of the previous layer and reduces the internal covariate shift, which can lead to faster training and better accuracy.
 
 The key parameter of the model: 
 * MobileNetV1.0_1.96x96.color
+After testing multiple model architectures and configurations, I chose MobileNetV1.0_1.96x96.color for image classification as it showed the best accuracy and performance.
 
 * BATCH_SIZE: determines the number of samples used per training iteration, affecting the speed and memory of the process. A value of 32 optimizes these factors. 
 
@@ -63,11 +64,11 @@ The key parameter of the model:
 
 * LEARNING_RATE: the size of each training step, affecting speed and accuracy. A value of 0.0015 strikes a balance.
 
-* FINE_TUNE_EPOCHS: number of additional passes to fine-tune the model and increase accuracy. 10 are used.
+* FINE_TUNE_EPOCHS: number of additional passes to fine-tune the model and increase accuracy. 10 are used in this model. (After the 40 epochs for improvment) 
 
 * FINE_TUNE_PERCENTAGE: percent of base layers to fine-tune. 65% is used to balance adaptability with pre-trained knowledge.
 
-* max_delta: variability in brightness for data augmentation. A value of 0.2 increases model robustness to different lighting conditions.
+* max_delta: variability in brightness for data augmentation. A value of 0.2 increases model abilities to deal with different lighting conditions.
 
 ![Transfer Learning Documentation](https://github.com/Gil-ADDA/CE-LAB/blob/78db88dd2031858951dd2e66a405a8f9987847d3/image/transfer%20learning%20documention%20.png)
 
