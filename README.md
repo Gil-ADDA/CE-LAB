@@ -22,7 +22,7 @@ How can transfer learning be utilized to enhance the accuracy of classifying win
 
 This project started as an object detection project, aiming to detect two unique objects in the Connected Environment Lab - the wind spiral and wind barometer. However, due to the limited dataset, it was challenging to achieve satisfactory results using traditional object detection techniques.
 Throughout the project, the terms "object detection" and "image classification" may be used interchangeably, but the fundamental goal remains the same - to accurately detect and classify the wind spiral and wind barometer objects. The choice to utilize image classification over object detection was made to achieve better performance with the small dataset. 
-[![Example of differences between object detection and image classification (adapted from DataCamp, 2018)](https://github.com/Gil-ADDA/CE-LAB/blob/57203c7da3a10daa0b40c9ca92706102ead2c31f/image/Object-D-VS-Image-Class.jpeg)]
+[*see the diffrences in the image below(adapted from DataCamp, 2018)](https://github.com/Gil-ADDA/CE-LAB/blob/57203c7da3a10daa0b40c9ca92706102ead2c31f/image/Object-D-VS-Image-Class.jpeg])
 .
 
 ![Exmple from DataCamp](https://github.com/Gil-ADDA/CE-LAB/blob/ef14ef0d8d21c367b88908499b6ad4e75ce8f532/image/Object-D-VS-Image-Class.jpeg)
