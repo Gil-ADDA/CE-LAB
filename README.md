@@ -5,26 +5,34 @@
 
 This project was inspired by the need for better engagement with the devices and projects in the Connected Environment Lab, both for students and guests visiting the lab. The primary objective is to detect two unique objects in the lab - the wind spiral and wind barometer - using an image classification program. By successfully identifying these objects, users can better interact with and learn about the lab's devices.
 
-The project employs a transfer learning approach to train an image classification model for detecting the wind spiral and wind barometer objects. A dataset consisting of 149 images, representing the two object labels, was used for training the model. Transfer learning leverages a pre-trained model to fine-tune the image classification task, helping to achieve better performance despite the smaller dataset.
+The project employs a transfer learning approach to train an object detection model for detecting the wind spiral and wind barometer objects. A dataset consisting of 149 images, representing the two object labels, was used for training the model. Transfer learning leverages a pre-trained model to fine-tune the object detection task, helping to achieve better performance despite the smaller dataset.
 
-The image classification model can be accessed by students and guests in the lab to help them identify the wind spiral and wind barometer objects. This interactive experience aims to foster better engagement and understanding of the devices in the lab, benefiting both students and guests. Possible future work includes improving the model's performance by collecting a more diverse dataset and incorporating an object detection model.
+The object classification model can be accessed by students and guests in the lab to help them identify the wind spiral and wind barometer objects. This interactive experience aims to foster better engagement and understanding of the devices in the lab, benefiting both students and guests. Possible future work includes improving the model's performance by collecting a more diverse dataset and incorporating an object detection model.
 
 # problem statement 
-The Connected Environment Lab has a variety of unique devices and projects that can be difficult for students and visitors to engage with and understand. In particular, the wind spiral and wind barometer objects are visually impressive but require explanation to fully appreciate. The goal of this project is to develop an image classification program using transfer learning that can accurately detect and identify these objects in order to enhance engagement and understanding of the devices in the lab. The challenge is to achieve high accuracy with a relatively small dataset
+The Connected Environment Lab has a variety of unique devices and projects that can be difficult for students and visitors to engage with and understand. In particular, the wind spiral and wind barometer objects are visually impressive but require explanation to fully appreciate. The goal of this project is to develop an image classification program using transfer learning that can accurately detect and identify these objects in order to enhance engagement and understanding of the devices in the lab. The challenge is to achieve high accuracy with a relatively small dataset.
 
 ![WindS Objects](https://github.com/Gil-ADDA/CE-LAB/blob/7ab792b29093a8fc4cc896c16054d685e39c08ff/image/WindS%20Objects.png)
 # Research question 
 
 The research question for this project was initially formulated as "What is the impact of using an image classification program on increasing engagement with the devices in the Connected Environment Lab?" However, based on feedback from the teaching staff, the question was revised to be more focused on the requirements of the course. The new research question is: 
+How can transfer learning be utilized to enhance the accuracy of classifying wind spiral and wind barometer using computer vision? (The two unique objects in the Connected Environment Lab). 
 
-How can transfer learning be utilized to enhance the accuracy of classifying wind spiral and wind barometer using computer vision? (The two unique objects in the Connected Environment Lab) 
+# Declaration:
+
+This project started as an object detection project, aiming to detect two unique objects in the Connected Environment Lab - the wind spiral and wind barometer. However, due to the limited dataset, it was challenging to achieve satisfactory results using traditional object detection techniques.
+Throughout the project, the terms "object detection" and "image classification" may be used interchangeably, but the fundamental goal remains the same - to accurately detect and classify the wind spiral and wind barometer objects. The choice to utilize image classification over object detection was made to achieve better performance with the small dataset. 
+*see the diffrences in the image below(adapted from DataCamp, 2018).
+
+
+
 
 # Background 
 The project was motivated by the need to improve engagement with the devices and projects in the Connected Environment Lab, both for students and guests. The primary objective is to detect two unique objects in the lab - the wind spiral and wind barometer - using an image classification program. The lab receives a lot of visitors, and with the increasing number of devices and projects, it can be challenging for visitors to understand the narrative and functionality of each project. The wind spiral and wind barometer are two examples of devices that visitors find intriguing but may not understand fully without the help of a teaching staff member. The project's short-term benefits include allowing guests to interact with and learn about these devices in a more meaningful way. The long-term goal is to create a virtual hub of all the projects in the lab, which will be open to everyone. Students and guests can connect with the co-creators of the projects and consult with them, potentially leading to the evolution of these projects or the creation of similar ones. The dataset used for this project consists of 149 images for both wind spiral and wind barometer classes. While working on the project, I faced challenges in achieving good results and figuring out the right amount of data required for the project to work. After experimenting with different approaches, I decided to pivot to transfer learning based on recommendations from the book Algorithms for Edge AI. 
 
 ![Object detection bounding box attempts](https://github.com/Gil-ADDA/CE-LAB/blob/d6dc0140d765485b9b29957252cfe8582ada2612/image/Object%20detection%20bounding%20box%20attempts.png)
 
-# Getting Started Image Classification Model Using Transfer Learning
+# Getting Started Image classification Model Using Transfer Learning
 ## 1. Dataset Collection and Split
 To begin, I collected a dataset of 149 images, including two labels representing the unique objects in the lab - the wind spiral and wind barometer. I then divided the dataset into training and test sets, following a 77% training and 23% test split, which aligns with the commonly recommended 80% training and 20% test split. In the training set, there were 74 images of wind spirals and 40 images of wind barometers, while the test set had 11 images of wind barometers and 24 images of wind spirals.
 
@@ -126,7 +134,7 @@ Edge Impulse
 <br> <img src="https://www.edge-ai-vision.com/wp-content/uploads/2021/05/logo_edgeimpulse_may_2021.png" width="80" height="60">
 
 
-In this project, Edge Impulse was utilized in three key ways. Firstly, the platform was used to store, tag, and split the dataset for efficient management. Secondly, it was utilized for building, training, and testing the machine learning model using various available algorithms. Finally, the trained model was deployed on an iPhone 12, enabling the execution of the model locally on the device
+In this project, Edge Impulse was utilized in three key ways. Firstly, the platform was used to store, tag, and split the dataset for efficient management. Secondly, it was utilized for building, training, and testing the machine learning model using various available algorithms. Finally, the trained model was deployed on an iPhone 12, enabling the execution of the model locally on the device.
 
 
 Google Sheets <br> <img src="https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_32dp.png" width="60" height="60"> (Used for documenting the results of training and testing)
@@ -173,6 +181,7 @@ Additionally, the vision of the user interface of the app is attached in the ima
 
 
 ## Refrences
+
 Edge Impulse. (n.d.). Object detection. Retrieved March 18, 2023, from https://docs.edgeimpulse.com/docs/tutorials/object-detection
 
 Situnayake, D. and Plunkett, J. (2023). Estimating Data Requirements. In: AI at the Edge: A Developer's Guide. O'Reilly Media, Inc. Available at: https://learning.oreilly.com/library/view/ai-at-the/9781098120191/ch07.html#idm45988813512176 (Accessed: April 25, 2023)
@@ -180,6 +189,10 @@ Situnayake, D. and Plunkett, J. (2023). Estimating Data Requirements. In: AI at 
 Situnayake, D. and Plunkett, J. (2023). How to Build a Dataset: The Ideal Dataset, Balanced. In: AI at the Edge. O'Reilly Media. Available at: https://learning.oreilly.com/library/view/ai-at-the/9781098120191/ch07.html#idm45988813512176 (Accessed: 24 April, 2023).
 
 TensorFlow. (n.d.). Transfer learning and fine-tuning. Retrieved from https://www.tensorflow.org/tutorials/images/transfer_learning 
+## Appendix
+
+DataCamp. (2018, April). Object Detection Guide. Retrieved April 25, 2023, from https://www.datacamp.com/tutorial/object-detection-guide
+
 ## MIT License
 
 Copyright (c) 2023 Gil Adda
