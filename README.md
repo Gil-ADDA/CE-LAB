@@ -18,7 +18,7 @@ The Connected Environment Lab has a variety of unique devices and projects that 
 The research question for this project was initially formulated as "What is the impact of using an image classification program on increasing engagement with the devices in the Connected Environment Lab?" However, based on feedback from the teaching staff, the question was revised to be more focused on the requirements of the course. The new research question is: 
 How can transfer learning be utilized to enhance the accuracy of classifying wind spiral and wind barometer using computer vision? (The two unique objects in the Connected Environment Lab). 
 
-# Declaration:
+# Declaration
 
 This project started as an object detection project, aiming to detect two unique objects in the Connected Environment Lab - the wind spiral and wind barometer. However, due to the limited dataset, it was challenging to achieve satisfactory results using traditional object detection techniques.
 Throughout the project, the terms "object detection" and "image classification" may be used interchangeably, but the fundamental goal remains the same - to accurately detect and classify the wind spiral and wind barometer objects. The choice to utilize image classification over object detection was made to achieve better performance with the small dataset. 
