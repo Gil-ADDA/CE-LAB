@@ -149,10 +149,12 @@ Transfer learning can be used for both image classification and object detection
 
 
 # Future work
+In order to improve this project, there are several steps that can be taken.
+First, a larger dataset can be created for each object, with at least 300 images for each object and ensuring that the object is the main part of the image (occupying more than 70% of the image). To improve training efficiency and accuracy, transfer learning with image classification can be used. Additionally, a new chunk of dataset can be created with both objects in one image, which can help to improve the model's ability to recognize and classify both objects together.
+Given the success of the MobileNet model architecture for this project, it will be used going forward. In order to make the project accessible to new students and visitors, a web application will be developed that allows users to easily detect and identify the objects in the CE-Lab using their smartphones (The web page files for this project are included in this repository as well. These files contain the HTML, CSS, and JavaScript (templates) code that is used to create the web application for the “CE-lab object detection”). Additionally, the vision of the user interface of the app is attached in the image underneath designed in Hotpot that provides an overview of how the model will look in action.
 
-For future work, there are several steps that could be taken to improve the project. One possibility is to create a  project in TensorFlow that is better able to detect both the wind spiral and wind barometer objects without relying on previous datasets. In addition, to the existing images, I'm thinking to add another type of image that includes examples of both objects in the same image. This can help to improve the accuracy of the transfer learning model and its ability to recognize and classify both objects together.
 
-To use this new dataset to improve the object detection model, transfer learning can be employed. This involves fine-tuning a pre-trained model on a new dataset. By doing this, the model can learn to recognize the features of both objects together, improving its accuracy on the task of object detection.
+
 
 ### The link to the original Sheet (Object detection and transfer learning)  https://docs.google.com/spreadsheets/d/1LEAihPLvVjIKXl6ZXBGP7pdwTo1F_FSEUE8_gQM_ccs/edit?usp=sharing
 
