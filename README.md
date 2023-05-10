@@ -52,6 +52,17 @@ Moreover, based on the Model Architectures section in Chapter 4 of the book "AI 
 ## 5. Model Training
 I trained the model using the processed images and learning block configuration with a batch size of 32 and 40 epochs. To address overfitting issues, I modified the Keras expert mode settings, setting the learning rate to 0.0015. I didn't use the auto-balance dataset or data augmentation options in this case, as I was not aware of the need to add them manually in the Keras code at the time. Despite this, the model testing results showed an accuracy of 94.29%, indicating that the model is effective in identifying the wind spiral and wind barometer objects. However, it's important to consider using data augmentation and class balancing techniques in future projects, especially when working with a small dataset like mine. Data augmentation can help prevent overfitting by artificially increasing the size of the training dataset and adding diversity to the data. Class balancing can ensure that the model has equal representation of all classes, even when one class has significantly more samples than another.
 
+After experimenting with various hyperparameters, I found that a dropout rate of 0.3 was most suitable for my model and helped to prevent overfitting. It can be seeing in the code the BatchNormalization layer, which was used to improve performance of the model and make it more stable. This layer helps to normalize the activations of the previous layer and reduces the internal covariate shift, which can lead to faster training and better accuracy.
+
+The key parameter of the model: 
+A. MobileNetV1.0_1.96x96.color
+B. BATCH_SIZE: Number of samples in each batch during training (set to 32).
+C. EPOCHS: Number of times the model is trained on the entire dataset (set to 40).
+D. LEARNING_RATE: Determines the step size when updating the model's weights during training (set to 0.0015).
+E. FINE_TUNE_EPOCHS: Number of additional epochs to fine-tune the model after initial training (set to 10).
+F. FINE_TUNE_PERCENTAGE: Percentage of base model layers to fine-tune (set to 65%).
+G. max_delta: Maximum amount by which brightness can be varied during data augmentation (set to 0.2).
+
 ![Transfer Learning Documentation](https://github.com/Gil-ADDA/CE-LAB/blob/78db88dd2031858951dd2e66a405a8f9987847d3/image/transfer%20learning%20documention%20.png)
 
 ![Training Data](https://github.com/Gil-ADDA/CE-LAB/blob/4bc06f64ee0e758ea9d4a4ba2524ebef6b4640e2/image/Training%20Data.png)
