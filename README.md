@@ -55,13 +55,19 @@ I trained the model using the processed images and learning block configuration 
 After experimenting with various hyperparameters, I found that a dropout rate of 0.3 was most suitable for my model and helped to prevent overfitting. It can be seeing in the code the BatchNormalization layer, which was used to improve performance of the model and make it more stable. This layer helps to normalize the activations of the previous layer and reduces the internal covariate shift, which can lead to faster training and better accuracy.
 
 The key parameter of the model: 
-A. MobileNetV1.0_1.96x96.color
-B. BATCH_SIZE: Number of samples in each batch during training (set to 32).
-C. EPOCHS: Number of times the model is trained on the entire dataset (set to 40).
-D. LEARNING_RATE: Determines the step size when updating the model's weights during training (set to 0.0015).
-E. FINE_TUNE_EPOCHS: Number of additional epochs to fine-tune the model after initial training (set to 10).
-F. FINE_TUNE_PERCENTAGE: Percentage of base model layers to fine-tune (set to 65%).
-G. max_delta: Maximum amount by which brightness can be varied during data augmentation (set to 0.2).
+* MobileNetV1.0_1.96x96.color
+
+* BATCH_SIZE: determines the number of samples used per training iteration, affecting the speed and memory of the process. A value of 32 optimizes these factors. 
+
+* EPOCHS: number of passes through the dataset, impacting convergence. 40 is chosen to capture complex patterns. 
+
+* LEARNING_RATE: the size of each training step, affecting speed and accuracy. A value of 0.0015 strikes a balance.
+
+* FINE_TUNE_EPOCHS: number of additional passes to fine-tune the model and increase accuracy. 10 are used.
+
+* FINE_TUNE_PERCENTAGE: percent of base layers to fine-tune. 65% is used to balance adaptability with pre-trained knowledge.
+
+* max_delta: variability in brightness for data augmentation. A value of 0.2 increases model robustness to different lighting conditions.
 
 ![Transfer Learning Documentation](https://github.com/Gil-ADDA/CE-LAB/blob/78db88dd2031858951dd2e66a405a8f9987847d3/image/transfer%20learning%20documention%20.png)
 
