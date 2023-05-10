@@ -2,7 +2,7 @@
 ## CE-LAB  Image Classification Model Using Edge Impulse
 <p align="center">
   <a href="https://github.com/Gil-ADDA/CE-Lab-project-detection-with-image-classification">
-    <h1><a href="https://github.com/Gil-ADDA/CE-Lab-project-detection-with-image-classification">Github Repository Link</a></h1>
+    <h1></h1>
   </a>
 </p>
 
