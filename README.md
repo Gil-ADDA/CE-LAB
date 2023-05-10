@@ -83,7 +83,7 @@ It's worth noting that while this model performed well, there is always a risk o
 ![Result of the Model](https://github.com/Gil-ADDA/CE-LAB/blob/fe0ba971f1ac7ddcd916a45734f81571d11a0c33/image/Result%20of%20the%20model1.png)
 
 ### Confusion matrix 
-In the confusion matrix it can be seen that the model performed excellently, achieving an overall F1 score of 0.95. It accurately identified all wind barometer images in the validation set with 100% precision. However, it misclassified 7.7% of the wind spiral images as wind barometer, resulting in 92.3% recall. Moreover the performance of the model may vary with different datasets and evaluation metrics. It's important to note that the 100% precision achieved in classifying all wind barometer images in the validation set indicates that it has been trained to accurately identify features of these images. However, this is likely due to the small size of the dataset. It's possible that with a larger and more diverse dataset, the precision score could decrease.
+In the *confusion matrix above* it can be seen that the model performed excellently, achieving an overall F1 score of 0.95. It accurately identified all wind barometer images in the validation set with 100% precision. However, it misclassified 7.7% of the wind spiral images as wind barometer, resulting in 92.3% recall. Moreover the performance of the model may vary with different datasets and evaluation metrics. It's important to note that the 100% precision achieved in classifying all wind barometer images in the validation set indicates that it has been trained to accurately identify features of these images. However, this is likely due to the small size of the dataset. It's possible that with a larger and more diverse dataset, the precision score could decrease.
 
 ![Test Data 88%](https://github.com/Gil-ADDA/CE-LAB/blob/4bc06f64ee0e758ea9d4a4ba2524ebef6b4640e2/image/Test%20Data%2088%25.png)
 
@@ -125,12 +125,15 @@ In the video demonstration, the image classification model is shown in action. A
 Edge Impulse 
 <br> <img src="https://www.edge-ai-vision.com/wp-content/uploads/2021/05/logo_edgeimpulse_may_2021.png" width="80" height="60">
 
+
 In this project, Edge Impulse was utilized in three key ways. Firstly, the platform was used to store, tag, and split the dataset for efficient management. Secondly, it was utilized for building, training, and testing the machine learning model using various available algorithms. Finally, the trained model was deployed on an iPhone 12, enabling the execution of the model locally on the device
 
 
 Google Sheets <br> <img src="https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_32dp.png" width="60" height="60"> (Used for documenting the results of training and testing)
 
 In this project, Google Sheets was used to document the experimentation process on Edge Impulse. This included documenting all the tweaks made to the models, as well as testing various different models during the training phase. The results of these tests were also documented, along with the results of the testing phase. By using Google Sheets to track and document the experimentation process, it allowed for a more organized and efficient workflow, making it easier to keep track of the various experiments performed on Edge Impulse.
+
+
 
 # Challenges faced during development
 Obtaining accurate results proved difficult during development. Additionally, finding the right dataset size was an issue; only 20 images were initially used and more were added as time went on, including images without the object and changes to the background. To gain a better understanding of machine learning, I employed various techniques and asked the Edge Impulse community for guidance (Attached underneath this paragraph). I studied other projects, articles, and books for additional insights. I also tweaked the model's variables, like architecture and image size, to boost performance.
@@ -152,6 +155,9 @@ Transfer learning can be used for both image classification and object detection
 In order to improve this project, there are several steps that can be taken.
 First, a larger dataset can be created for each object, with at least 300 images for each object and ensuring that the object is the main part of the image (occupying more than 70% of the image). To improve training efficiency and accuracy, transfer learning with image classification can be used. Additionally, a new chunk of dataset can be created with both objects in one image, which can help to improve the model's ability to recognize and classify both objects together.
 Given the success of the MobileNet model architecture for this project, it will be used going forward. In order to make the project accessible to new students and visitors, a web application will be developed that allows users to easily detect and identify the objects in the CE-Lab using their smartphones (The web page files for this project are included in this repository as well. These files contain the HTML, CSS, and JavaScript (templates) code that is used to create the web application for the “CE-lab object detection”). Additionally, the vision of the user interface of the app is attached in the image underneath designed in Hotpot that provides an overview of how the model will look in action.
+
+The Link to Hotpot
+<a href="https://hotpot.ai/" target="_blank"><img src="https://img.shields.io/badge/-hotpot-181717?style=flat-square&logo=GitHub&logoColor=white"></a>
 
 ![WEB-APP](https://github.com/Gil-ADDA/CE-LAB/blob/468516b6af0e46fc6519c8d275403c36a74bc69b/image/WEB%20APP%20CE-LAB.png)
 
